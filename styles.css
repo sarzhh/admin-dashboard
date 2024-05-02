@@ -11,8 +11,8 @@ body{
     margin: 0 20%;
     height: 100vh;
     background-color: white;
-    grid-template-columns:[first] 25% [second] 75%[third] ;
-    grid-template-rows: [first] 20% [second] 85%[third] ;
+    grid-template-columns:[first] 20% [second] 80%[third] ;
+    grid-template-rows: [first] 20% [second] 80%[third] ;
 }
 
 .side-bar,
@@ -40,4 +40,12 @@ body{
 
 .settings{
     display: grid;
+}
+
+.header{
+    display: grid;
+    grid-template-columns:[first] 70% [second] 30%[third] ;
+    grid-template-rows: [first] 50% [second] 50%[third] ;
+    box-sizing: border-box;
+    padding: 20px;
 }

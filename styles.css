@@ -11,4 +11,33 @@ body{
     margin: 0 20%;
     height: 100vh;
     background-color: white;
+    grid-template-columns:[first] 25% [second] 75%[third] ;
+    grid-template-rows: [first] 20% [second] 85%[third] ;
+}
+
+.side-bar,
+.header,
+.main{
+    border: 2px solid black;
+}
+
+.side-bar{
+    grid-row: 1 / span 2;
+    display: grid;
+    padding-left: 20px;
+    grid-template-rows: [first] 7% [second] 30%[third] 15% [fourth] ;
+    row-gap: 20px;
+}
+
+.branding{
+    align-self: center;
+    font-size: 20px;
+}
+
+.navigation{
+    display: grid;
+}
+
+.settings{
+    display: grid;
 }

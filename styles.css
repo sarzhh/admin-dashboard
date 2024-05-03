@@ -17,8 +17,8 @@ body{
 
 .side-bar,
 .header,
-.main{
-    border: 2px solid black;
+.main, .trending, .projects, .announcements, .sub{
+    border: 1px solid black;
 }
 
 .side-bar{
@@ -48,4 +48,25 @@ body{
     grid-template-rows: [first] 50% [second] 50%[third] ;
     box-sizing: border-box;
     padding: 20px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns:[first] 70% [second] 30%[third] ;
+    grid-template-rows: [first] 50% [second] 50%[third] ;
+}
+
+.projects{
+    grid-row: 1 / span 2;
+    display: grid;
+    grid-template-columns:[first] 49% [second] 49%[third] ;
+    grid-template-rows: [first] 7% [second] 25%[third] 25% [fourth] 25% [fifth];
+    padding: 0px 15px;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.projects> h3{
+    grid-column: 1 / span 2;
+    
 }

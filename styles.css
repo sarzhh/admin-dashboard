@@ -79,3 +79,33 @@ body{
 .trending{
     padding: 0px 15px;
 }
+
+h4,h5{
+    margin: 0px;
+}
+
+h5{
+    padding-top: 10px;
+}
+
+.sub>p, .subb>div>p{
+    margin: 0;
+}
+
+.subb>div>p{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.announcements>h3, {
+    margin-bottom: 0px;
+}
+
+.subbb>div{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.trending>h3{
+    margin: 10px 0px;
+}

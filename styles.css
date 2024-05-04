@@ -70,3 +70,12 @@ body{
     grid-column: 1 / span 2;
     
 }
+
+.announcements{
+   padding: 0 15px;
+   
+}
+
+.trending{
+    padding: 0px 15px;
+}
